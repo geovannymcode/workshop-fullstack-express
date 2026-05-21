@@ -1,0 +1,71 @@
+site_name: "Workshop Fullstack Express: NestJS + React en 4 horas"
+site_description: "Workshop práctico para estudiantes que quieren construir y desplegar su primera aplicación fullstack real."
+site_author: "Geovanny Mendoza"
+site_url: "https://geovannymcode.github.io/workshop-fullstack-express/"
+
+repo_name: "geovannymcode/workshop-fullstack-express"
+repo_url: "https://github.com/geovannymcode/workshop-fullstack-express"
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Inicio: index.md
+  - Sesiones del Workshop:
+      - "Sesión 0 — Antes de empezar": sesion_0.md
+      #- "Sesión 1 — Setup y Git": sesion_1.md
+      #- "Sesión 2 — Backend con NestJS": sesion_2.md
+      #- "Sesión 3 — Frontend con React": sesion_3.md
+      #- "Sesión 4 — Deployment a producción": sesion_4.md
+  - Referencias: referencias.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/geovannymcode
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/geovannymcode/
